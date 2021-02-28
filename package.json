@@ -1,0 +1,16 @@
+{
+  "name": "modbus-serial",
+  "version": "1.0.0",
+  "description": "Serial modbus reader",
+  "author": "Geno Roupsky",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ieee754": "^1.1.13",
+    "modbus-serial": "^8.0.1"
+  }
+}
