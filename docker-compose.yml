@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+
+  modbus-serial:
+    build: .
+    privileged: true
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - /dev/bus/usb:/dev/bus/usb
